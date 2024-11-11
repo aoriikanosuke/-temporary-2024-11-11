@@ -1,7 +1,10 @@
-import { v4 } from 'uuid';
-//uuid v4 の文字列を出力
+import { v7 } from 'uuid';
+/**
+ * UUID を v7 に変更
+ * @returns UUID v7
+ */
 export const createUuid = () => {
-    return v4();
+    return v7();
 }
 
 export  const sample = () =>{
